@@ -1,0 +1,228 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Cherry Mx Bitboard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Cherry Mx Bitboard"
+Date "2016-06-21"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X01 P21
+U 1 1 5765FFFB
+P 4150 3550
+F 0 "P21" H 4150 3650 50  0000 C CNN
+F 1 "CONN_01X01" V 4250 3550 50  0001 C CNN
+F 2 "footprint:wirepad" H 4150 3550 50  0001 C CNN
+F 3 "" H 4150 3550 50  0000 C CNN
+	1    4150 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P24
+U 1 1 57660028
+P 7600 3850
+F 0 "P24" H 7600 3950 50  0000 C CNN
+F 1 "CONN_01X01" V 7700 3850 50  0001 C CNN
+F 2 "footprint:wirepad" H 7600 3850 50  0001 C CNN
+F 3 "" H 7600 3850 50  0000 C CNN
+	1    7600 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW1
+U 1 1 5766005F
+P 5700 3700
+F 0 "SW1" H 5850 3810 50  0000 C CNN
+F 1 "SW_PUSH" H 5700 3620 50  0001 C CNN
+F 2 "footprint:switch" H 5700 3700 50  0001 C CNN
+F 3 "" H 5700 3700 50  0000 C CNN
+	1    5700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D1
+U 1 1 576600B4
+P 6300 3700
+F 0 "D1" H 6300 3800 50  0000 C CNN
+F 1 "D" H 6300 3600 50  0001 C CNN
+F 2 "footprint:diode" H 6300 3700 50  0001 C CNN
+F 3 "" H 6300 3700 50  0000 C CNN
+	1    6300 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P22
+U 1 1 57661EE3
+P 4150 3850
+F 0 "P22" H 4150 3950 50  0000 C CNN
+F 1 "CONN_01X01" V 4250 3850 50  0001 C CNN
+F 2 "footprint:wirepad" H 4150 3850 50  0001 C CNN
+F 3 "" H 4150 3850 50  0000 C CNN
+	1    4150 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P11
+U 1 1 57662110
+P 5150 2700
+F 0 "P11" H 5150 2800 50  0000 C CNN
+F 1 "CONN_01X01" V 5250 2700 50  0001 C CNN
+F 2 "footprint:wirepad" H 5150 2700 50  0001 C CNN
+F 3 "" H 5150 2700 50  0000 C CNN
+	1    5150 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P12
+U 1 1 576621F9
+P 5500 2700
+F 0 "P12" H 5500 2800 50  0000 C CNN
+F 1 "CONN_01X01" V 5600 2700 50  0001 C CNN
+F 2 "footprint:wirepad" H 5500 2700 50  0001 C CNN
+F 3 "" H 5500 2700 50  0000 C CNN
+	1    5500 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P13
+U 1 1 57662573
+P 5150 4800
+F 0 "P13" H 5150 4900 50  0000 C CNN
+F 1 "CONN_01X01" V 5250 4800 50  0001 C CNN
+F 2 "footprint:wirepad" H 5150 4800 50  0001 C CNN
+F 3 "" H 5150 4800 50  0000 C CNN
+	1    5150 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 P14
+U 1 1 576625A6
+P 5500 4800
+F 0 "P14" H 5500 4900 50  0000 C CNN
+F 1 "CONN_01X01" V 5600 4800 50  0001 C CNN
+F 2 "footprint:wirepad" H 5500 4800 50  0001 C CNN
+F 3 "" H 5500 4800 50  0000 C CNN
+	1    5500 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 P15
+U 1 1 576625D9
+P 6500 4800
+F 0 "P15" H 6500 4900 50  0000 C CNN
+F 1 "CONN_01X01" V 6600 4800 50  0001 C CNN
+F 2 "footprint:wirepad" H 6500 4800 50  0001 C CNN
+F 3 "" H 6500 4800 50  0000 C CNN
+	1    6500 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 P16
+U 1 1 5766261C
+P 6900 4800
+F 0 "P16" H 6900 4900 50  0000 C CNN
+F 1 "CONN_01X01" V 7000 4800 50  0001 C CNN
+F 2 "footprint:wirepad" H 6900 4800 50  0001 C CNN
+F 3 "" H 6900 4800 50  0000 C CNN
+	1    6900 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X01 P23
+U 1 1 57662661
+P 7600 3550
+F 0 "P23" H 7600 3650 50  0000 C CNN
+F 1 "CONN_01X01" V 7700 3550 50  0001 C CNN
+F 2 "footprint:wirepad" H 7600 3550 50  0001 C CNN
+F 3 "" H 7600 3550 50  0000 C CNN
+	1    7600 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3700 6150 3700
+Wire Wire Line
+	6450 3700 6600 3700
+Wire Wire Line
+	5400 3700 5300 3700
+Wire Wire Line
+	4350 3850 4650 3850
+Wire Wire Line
+	5500 2900 5500 3100
+Wire Wire Line
+	5150 2900 5150 3100
+Wire Wire Line
+	4350 3550 4650 3550
+Wire Wire Line
+	5150 4300 5150 4600
+Wire Wire Line
+	5500 4300 5500 4600
+Wire Wire Line
+	6500 4300 6500 4600
+Wire Wire Line
+	6900 4300 6900 4600
+Wire Wire Line
+	7150 3550 7400 3550
+Wire Wire Line
+	7150 3850 7400 3850
+Text Label 4650 3550 0    60   ~ 0
+2
+Text Label 4650 3850 0    60   ~ 0
+2
+Text Label 5150 3100 3    60   ~ 0
+1
+Text Label 5500 3100 3    60   ~ 0
+1
+Text Label 5150 4300 1    60   ~ 0
+1
+Text Label 6500 4300 1    60   ~ 0
+1
+Text Label 5500 4300 1    60   ~ 0
+1
+Text Label 6900 4300 1    60   ~ 0
+1
+Text Label 7150 3850 2    60   ~ 0
+2
+Text Label 7150 3550 2    60   ~ 0
+2
+Text Label 5300 3700 2    60   ~ 0
+1
+Text Label 6600 3700 0    60   ~ 0
+2
+$EndSCHEMATC
