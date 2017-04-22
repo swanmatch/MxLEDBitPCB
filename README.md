@@ -11,6 +11,7 @@
 ![example](./images/example.JPG)
 
 panelizeフォルダにガーバーデータもアップしてあるので作りたい人はどうぞご自由に。
+10cm x 10cm のサイズで25個入るように設計してあります。
 
 ## License
 
