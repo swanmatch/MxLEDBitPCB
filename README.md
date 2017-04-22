@@ -11,3 +11,7 @@
 ![example](./images/example.JPG)
 
 panelizeフォルダにガーバーデータもアップしてあるので作りたい人はどうぞご自由に。
+
+## License
+
+https://creativecommons.org/licenses/by/4.0/
