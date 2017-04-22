@@ -5,3 +5,9 @@
 ![panelize](./images/panelize.JPG)
 
 ![pcb](./images/pcb.png)
+
+この様な感じで使うことを想定しています。
+
+![example](./images/example.JPG)
+
+panelizeフォルダにガーバーデータもアップしてあるので作りたい人はどうぞご自由に。
