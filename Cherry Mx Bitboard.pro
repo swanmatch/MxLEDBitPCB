@@ -1,4 +1,4 @@
-update=2018年07月20日 03時50分34秒
+update=2018年07月27日 02時38分15秒
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+LibName31=/home/swanmatch/keyboard/helix/PCB/beta/helix-cache
