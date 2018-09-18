@@ -6080,7 +6080,7 @@
     (at 173.355 88.9)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
-    (fp_text reference DATA (at 0 1.905) (layer B.SilkS)
+    (fp_text reference DATA (at -1.27 1.905) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value CONN_01X01 (at 0 0) (layer F.SilkS) hide
@@ -6094,7 +6094,7 @@
     (at 170.815 88.9)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
-    (fp_text reference A (at 0 1.905) (layer B.SilkS)
+    (fp_text reference A (at -1.27 1.27) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value CONN_01X01 (at 0 0) (layer F.SilkS) hide
@@ -6107,7 +6107,7 @@
     (at 160.655 93.345)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
-    (fp_text reference A (at 0 -1.905) (layer B.SilkS)
+    (fp_text reference A (at 1.27 -1.27) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value CONN_01X01 (at 0 0) (layer F.SilkS) hide
@@ -6120,7 +6120,7 @@
     (at 157.48 93.345)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
-    (fp_text reference DATA (at 0 -1.905) (layer B.SilkS)
+    (fp_text reference DATA (at 1.905 -1.905) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
     )
     (fp_text value CONN_01X01 (at 0 0) (layer F.SilkS) hide
