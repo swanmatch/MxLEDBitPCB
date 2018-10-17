@@ -1,6 +1,0 @@
-(fp_lib_table
-  (lib (name footprint)(type KiCad)(uri "$(KIPRJMOD)/footprint.pretty")(options "")(descr ""))
-  (lib (name sk6812)(type KiCad)(uri /home/swanmatch/keybord/helix/PCB/beta/sk6812.pretty)(options "")(descr ""))
-  (lib (name helix)(type KiCad)(uri /home/swanmatch/keyboard/helix/PCB/beta/helix.pretty)(options "")(descr ""))
-  (lib (name promicro)(type KiCad)(uri "$(KIPRJMOD)/promicro.pretty")(options "")(descr ""))
-)
