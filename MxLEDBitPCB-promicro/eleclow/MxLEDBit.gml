@@ -1,11 +1,11 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.0.0-fee4fd1~66~ubuntu18.04.1*
-G04 #@! TF.CreationDate,2018-09-17T00:42:53+09:00*
-G04 #@! TF.ProjectId,MxLEDBit,4D784C45444269742E6B696361645F70,1*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.0.2-bee76a0~70~ubuntu18.04.1*
+G04 #@! TF.CreationDate,2019-11-06T20:00:43+09:00*
+G04 #@! TF.ProjectId,MxLEDBit,4d784c45-4442-4697-942e-6b696361645f,1*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Profile,NP*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.0.0-fee4fd1~66~ubuntu18.04.1) date Mon Sep 17 00:42:53 2018*
+G04 Created by KiCad (PCBNEW 5.0.2-bee76a0~70~ubuntu18.04.1) date 2019年11月06日 20時00分43秒*
 %MOMM*%
 %LPD*%
 G01*
