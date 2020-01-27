@@ -1,6 +1,6 @@
 # 無限の可能性
 
-https://raw.githubusercontent.com/ogatatsu/Cherry-Mx-Bitboardを改変し、
+[Cherry-Mx-Bitboard](https://github.com/ogatatsu/Cherry-Mx-Bitboard)を改変し、
 helixを参考にSK6812miniがハマるようにしたものです。
 
 自作キーボード用のプリント基板、１つの基板が１個のスイッチに対応しています。
@@ -14,7 +14,9 @@ helixを参考にSK6812miniがハマるようにしたものです。
 
 詳しくは[こちら](https://swan-match.hatenablog.com/entry/2018/09/15/184923)。
 
-また、[トッププレートの作り方](https://swanmatch.github.io/topplate-tips)を公開しました。  
+また、[トッププレートの作り方](https://swanmatch.github.io/topplate-tips)を公開しました。
+
+[English](https://translate.google.com/translate?hl=ja&sl=auto&tl=en&u=https%3A%2F%2Fswanmatch.github.io%2FMxLEDBitPCB%2F&sandbox=1)
 
 
 ## 無限の可能性シリーズ
@@ -92,8 +94,8 @@ ColとRow、縦のVCCとGNDは配線の配線が不要。
 10. Promicroをソケットにはんだ付けします。  
   (コンスルーを使ってもいいですが、もげたらソケットごと交換したほうが安上がり。)
 11. お好みに合わせてファームウェアを作成して書き込んで完成。  
-  ファームウェアは[QMK_Firmware6](https://github.com/qmk/qmk_firmware)を使うととても簡単です。  
-  参考: https://skyhigh-works.hatenablog.com/entry/2018/10/09/120909
+  ファームウェアは[QMK_Firmware](https://github.com/qmk/qmk_firmware)を使うととても簡単です。  
+  参考: [自作キーボードのファームウェアを用意する手段3種類](https://skyhigh-works.hatenablog.com/entry/2018/10/09/120909)
 
 
 ## 配線例
@@ -124,7 +126,7 @@ LEDは右上から螺旋状に配線しています。
   Promicroは最後にはんだ付けするようにしてください。
 
 
-### 終わりに
+## 終わりに
 
 この基板を使ってキーボードを組んだ際にはぜひ[@swan_match](https://twitter.com/swan_match)までご一報ください。
 
