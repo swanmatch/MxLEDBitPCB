@@ -14,7 +14,7 @@ helixを参考にSK6812miniがハマるようにしたものです。
 
 詳しくは[こちら](https://swan-match.hatenablog.com/entry/2018/09/15/184923)。
 
-また、[トッププレートの作り方](https://swanmatch.github.io/topplate-tips)を公開しました。
+[トッププレートの作り方](https://swanmatch.github.io/topplate_tips)を公開しました。
 
 [English](https://translate.google.com/translate?hl=ja&sl=auto&tl=en&u=https%3A%2F%2Fswanmatch.github.io%2FMxLEDBitPCB%2F&sandbox=1)
 
