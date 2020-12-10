@@ -28,16 +28,18 @@ OLED、リセットスイッチ、分割キーボード向けのTRRS、
 そしてマウント用のM2ネジ穴を足したもの。  
 TRRSのPinアサインはHelix互換。
 
-### ネクサス
+### 無限の可能性シリーズ
 
-もともとつながっている25キーを切り離さなければ、
-ColとRow、縦のVCCとGNDは配線の配線が不要。
+無限の可能性には複数のシリーズがあり、それぞれ対応するLED,スイッチダイオードが違います。  
+以下に仕様をまとめます。
 
-もちろん切り離しても使えます。
-
-### アルタナ
-
-ネクサス同様プレ配線済で、Kailhソケットでスイッチ交換が可能なバージョン。
+プロジェクト | スイッチ | Kailhソケット利用可否 | LED | スルーホールダイオード | SOD-123 |
+-|-|-|-|-|-
+Nexus | MX | No | SK6812MINI | Yes | No |
+Altana | MX | Yes | SK6812MINI | Yes | No |
+Suxen | MX | No | YS-SK6812MINI | Yes | Yes |
+Container | MX | Yes | YS-SK6812MINI | Yes | Yes |
+Choc | KailhLowProfile | No | YS-SK6812MINI | No | Yes |
 
 
 ## 材料例(仕入先)
@@ -47,8 +49,9 @@ ColとRow、縦のVCCとGNDは配線の配線が不要。
     3mmアクリル角材とアクリルサンデーなどの接着剤があるとよいです。(ホームセンター)
   * 3Dケース(DMM.make)
   * 5mmダンボール(そのへんから拾ってくるなど。)
-* スイッチングダイオード1N4148(TALPKeyboardさん)
-* SK6812mini(遊舎工房さん)
+* スイッチングダイオード1N4148、SOD-123(TALPKeyboardさん)
+* SK6812mini、YS-SK6812MINI-E(遊舎工房さん)
+* Kailhソケット(遊舎工房さん、Talpkeyboardさん、Kbdfansさん)
 * ウレタンエナメル線(0.35～0.45mmくらいのものがオススメ。ホームセンタなどにもある。ビニル線でも可能ですが溶けちゃったり結構大変)
 * TRRSジャック、RESETボタン(秋月電子さん)
 * OLED(オプション、遊舎工房さん)
@@ -69,7 +72,7 @@ ColとRow、縦のVCCとGNDは配線の配線が不要。
 * Ｃ: 横線(Col)
 * Ｒ: 縦線(Row)
 * DI: LED制御信号入力(DataIn)
-* DO: LED制御信号出力(DataOUT)
+* DO: LED制御信号出力(DataOut)
 * －: グランド(LED用)
 * ＋: VCC(LED用5V)
 
