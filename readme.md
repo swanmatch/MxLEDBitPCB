@@ -37,10 +37,11 @@ TRRSのPinアサインはHelix互換。
 -|-|-|-|-|-
 Nexus | MX | No | SK6812MINI | Yes | No |
 Altana | MX | Yes | SK6812MINI | Yes | No |
-Suxen | MX | No | YS-SK6812MINI | Yes | Yes |
-Container | MX | Yes | YS-SK6812MINI | Yes | Yes |
+Suxen | MX | No | YS-SK6812MINI | Yes | Yes(*) |
+Container | MX | Yes | YS-SK6812MINI | Yes | Yes(*) |
 Choc | KailhLowProfile | No | YS-SK6812MINI | No | Yes |
 
+(*) スウェンとコンテナでSOD-123を使う場合、スペースの都合で片方のパッドをスルーホールの穴と共有することになるので、少しトリッキーな実装になります。
 
 ## 材料例(仕入先)
 
