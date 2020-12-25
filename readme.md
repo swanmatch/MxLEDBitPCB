@@ -16,7 +16,12 @@ helixを参考にSK6812miniがハマるようにしたものです。
 
 [トッププレートの作り方](https://swanmatch.github.io/topplate_tips)を公開しました。
 
-[English](https://translate.google.com/translate?hl=ja&sl=auto&tl=en&u=https%3A%2F%2Fswanmatch.github.io%2FMxLEDBitPCB%2F&sandbox=1)
+# Languages
+* [Japanese](./readme.md)
+* [English](./readme_en.md)
+* [French](./readme_fr.md)
+* [Russian](./readme_ru.md)
+* [Chinese](./readme_zh.md)
 
 
 ## 無限の可能性シリーズ
@@ -66,7 +71,7 @@ Choc | KailhLowProfile | No | YS-SK6812MINI | No | Yes |
 
 ## Pinアサイン
 
-![pcb](./pcb1.png)
+![pcb](./images/PCB.png)
 
 無限の可能性のピン配置は以下の通りです。
 
@@ -77,6 +82,8 @@ Choc | KailhLowProfile | No | YS-SK6812MINI | No | Yes |
 * －: グランド(LED用)
 * ＋: VCC(LED用5V)
 
+写真の例はSuxenですが、ほかもだいたい似たような感じです。
+
 ## 組立手順
 
 1. SK6812miniをはんだ付けします。  
@@ -84,8 +91,7 @@ Choc | KailhLowProfile | No | YS-SK6812MINI | No | Yes |
   もたもたしていると壊れます。  
   はんだも融点200℃以下の低温はんだを使ってください。
 2. ダイオードをはんだ付けします。
-3. トッププレートにスイッチをはめて、裏に無限の可能性をはめてスイッチの足をはんだ付けします。  
-  (アルタナはソケット)
+3. トッププレートにスイッチをはめて、裏に無限の可能性をはめてスイッチの足をはんだ付けします。(Altana,Containerはソケット)  
   このとき2mmアクリル板を使う場合は、スイッチが抜けてしまうのを防ぐため、
   プレート裏面のスイッチ脇に3mmアクリル角材をアクリル接着剤などでくっつけておくこといいです。
 4. 自身の組みたいキーボードのキーマトリックスに合わせ、横線(Col)と縦線(Row)を配線します。
@@ -104,22 +110,20 @@ Choc | KailhLowProfile | No | YS-SK6812MINI | No | Yes |
 
 ## 配線例
 
-例えば3*3の格子配列だったら以下のような配線になります。  
-(ネクサス・アルタナで、切り離さなかった場合は、基板間のCol,Row,縦のVCCとGNDの配線が不要です。)  
+例えばSuxenで下記のような配列の場合、以下のような配線になります。  
 ウレタンエナメル線(UEW)は被膜を剥がすのが結構大変なので、
 ショートの可能性が少ない隣り合う基板間の配線は、
-切り落としたダイオードの足などでもいいかもです。  
-LEDは右上から螺旋状に配線しています。
+切り落としたダイオードの足がオススメです。  
 
-![pcb](./pcb9.png)
+![pcb](./images/Wired2.png)
 
 
 ### 注意事項
 
-* 2019/4月より流通している、ネクサス・アルタナはCol、Row、縦の電源ライン(VCC,GND)が配線済みです。
-* アルタナはKailhのソケットを使ってスイッチを交換できるバージョンです。
+* Altana、ContainerはKailhソケットを使ってスイッチを交換できるバージョンです。
+* Suxen、ContainerはYS-SK6812MINIに対応していて、LEDの欠けている足をPCBの三角のシルクに合わせて実装してください。
 * もしも万が一やんごとなき事情で、どうしてもLEDを光らせる必要がない場合、
-  ColとRowだけ配線すればキーボードとして機能します。
+  ColとRowだけ配線すればキーボードとして機能します。[配線例](./images/Wired.png)
 * 国内でよく採用されている、サンドイッチマウントのキーボードの場合、
   トッププレートとボトムプレートをスペーサーで配置しますが、
   無限の可能性の場合キーの間にスペーサーが入る隙間がありません。
