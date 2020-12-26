@@ -118,7 +118,7 @@ For example, in the case of the following arrangement in Suxen, the wiring will 
 
 ## At the end
 
-この基板を使ってキーボードを組んだ際にはぜひ[@swan_match](https://twitter.com/swan_match)までご一報ください。
+If you use this board to build a keyboard, please let us know at @swan_match .
 
 I support your EndGame! !
 
