@@ -10,7 +10,7 @@ Par exemple ...!
 
 ![exemple exemple](https://cdn-ak.f.st-hatena.com/images/fotolife/s/swan_match/20180915/20180915184339.jpg)
 
-詳しくは[こちら](https://swan-match.hatenablog.com/entry/2018/09/15/184923)。
+Cliquez ici pour plus de détails.
 
 Nous avons publié [comment faire une plaque supérieure](https://swanmatch.github.io/topplate_tips) .
 
@@ -118,7 +118,7 @@ Par exemple, dans le cas de l'agencement suivant à Suxen, le câblage sera le s
 
 ## À la fin
 
-この基板を使ってキーボードを組んだ際にはぜひ[@swan_match](https://twitter.com/swan_match)までご一報ください。
+Si vous avez assemblé un clavier à l'aide de cette carte, veuillez nous en informer à @swan_match .
 
 Nous soutenons votre End Game! !!
 
