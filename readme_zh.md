@@ -96,9 +96,7 @@ Altana | MX | 是 | SK6812MINI | 是 | 没有
 9. 从任何引脚旁边的孔中连接Col和Row，LED（DO），GND和VCC，以实现无限可能。
 10. 将Promicro焊接到插座上。
      （您可以使用连接器，但如果整个插座坏了，则更换整个插座要便宜一些。）
-11. お好みに合わせてファームウェアを作成して書き込んで完成。
-     ファームウェアは[QMK_Firmware](https://github.com/qmk/qmk_firmware)を使うととても簡単です。
-     参考: [自作キーボードのファームウェアを用意する手段3種類](https://skyhigh-works.hatenablog.com/entry/2018/10/09/120909)
+11. 根据您的喜好创建并写入固件。 使用QMK_Firmware固件非常简单。 参考： 为您自己的键盘准备固件的三种方法
 
 ## 接线实例
 
