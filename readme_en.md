@@ -44,6 +44,8 @@ Choc | KailhLowProfile | No | YS-SK6812MINI | No | Yes
 
 (*) When using SOD-123 with Swen and container, one pad will be shared with the through hole hole due to space limitations, so it will be a little tricky implementation.
 
+NOTE: YS-SK6812MINI is the same thing as SK-6812 MINI-E.
+
 ## Material example (supplier)
 
 - Arbitrarily cut plate
@@ -115,6 +117,61 @@ For example, in the case of the following arrangement in Suxen, the wiring will 
 - In the case of sandwich mount keyboards, which are often used in Japan, the top plate and bottom plate are placed with spacers, but in the case of infinite possibilities, there is no space for spacers to enter between the keys. Make a screw hole on the outside of the key.
 - If you solder the Promicro to the "house" first, the solder may leak from the hole when wiring to the infinite possibilities side, and the parts of the Promicro body may be short-circuited.
      Be sure to solder the Promicro last.
+
+### Ordering PCBs
+
+Remember that the the manufacturers can change their requirements at any time!
+
+The basic process is that you want to submit the 'gerber' files in a zip.  In this repo, under each pcb folder (e.g. altana, container) there is a zip file.
+This is what you will add to your pcb order.  Simply download it from this repo and attach to the order using the pcb manufacturer's instructions.
+
+Then, you configure whatever options they need and submit - crucially, the dimensions need to match the actual panel size.
+
+PCB type | panel size
+--- | ---
+Altana | 94x94mm
+Choc | 88.5x84mm
+Container | 94x94mm
+Nexus | 94x94mm
+Suxen | 94x94mm
+(I pulled these by opening in Kicad and measuring - where not already dimensioned - edge-to-edge of the pcb design)
+
+#### Elecrow
+
+They will accept the panel design as-is.
+
+Example order configuration (for Container)
+- Layer: 2 layers
+- PCB qty: 10 (gives you 250 pieces - the minimum is qty 5 - 125 pieces)
+- Dimensions: 94x94mm
+- PCB thickness: 1.6mm
+- Castellated hole: no
+- Surface finish: HASL
+- Copper weight: 1oz
+- Different design: 1
+- File: container.zip
+
+#### JLCPCB
+
+If your order is rejected, they will contact you saying the slot sizes are too small (minimum tab connector size of 4mm), you can try mentioning to them that the last time someone ordered this PCB it printed fine.
+
+Example order configuration (for Container)
+- Base Material: FR-4
+- Layers: 2
+- Dimension: 95.7 mm* 95.7 mm 95.65mm* 95.65mm
+- PCB Qty: 10
+- Different Design: 1
+- Delivery Fomat: Panel by Customer
+- PCB Thickness: 1.6
+- Impedance: no
+- PCB Color: Green
+- Silkscreen: White
+- Surface Finish: HASL(with lead)
+- Deburring/Edge rounding: No
+- Outer Copper Weight: 1
+- Gold Fingers: No
+- Flying Probe Test: Fully Test
+- Castellated Holes: no
 
 ## At the end
 
