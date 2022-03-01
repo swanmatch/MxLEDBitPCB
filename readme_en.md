@@ -132,7 +132,6 @@ PCB type | panel size
 Altana | 94x94mm
 Choc | 88.5x84mm
 Container | 94x94mm
-Foostan | ?
 Nexus | 94x94mm
 Suxen | 94x94mm
 (I pulled these by opening in Kicad and measuring - where not already dimensioned - edge-to-edge of the pcb design)
